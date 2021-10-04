@@ -1,5 +1,5 @@
 # Niche position functions
-# polynomial repsones of HMSC beta parameters
+# polynomial responses of HMSC beta parameters
 
 check_beta_trend<-function(LpredDeriv){
   pn<-dim(LpredDeriv)[2]
