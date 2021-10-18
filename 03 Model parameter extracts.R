@@ -2,7 +2,7 @@
 
 ##creating objects to save results of all model runs per taxonomic group
 
-# so save variance partitioning (VP) values
+# to save variance partitioning (VP) values
 Bird_VP <- matrix(NA, 12, 7) 
 
 # to save species level variance partitioning and model fit including AUC and Tjur values
