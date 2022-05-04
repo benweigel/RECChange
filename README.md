@@ -41,6 +41,6 @@ The scripts exemplify how to fit the models for each taxon in each zone and deca
 
 Please note that some of the code in this repository was written to run on a HPC cluster and that fitting the JSDMs can take multiple weeks for the largest subsets.
 
-**Requirements**
-Program R version used 3.6.3 (2020-02-29)
+**Requirements**    
+Program R version used 3.6.3 (2020-02-29)   
 Other attached packages: Hmsc_3.0-12, coda_0.19-4 
