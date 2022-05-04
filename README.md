@@ -1,6 +1,6 @@
 **RECChange**
 
-This repository accompanies the manuscript "**Climate change reshuffles northern species within their niches" by Antao & Weigel et al. and provides all necessary R scripts and data to reproduce included results.
+This repository accompanies the manuscript **"Climate change reshuffles northern species within their niches"** by Antao & Weigel et al. and provides all necessary R scripts and data to reproduce included results.
 
 **Antão, L.H.° & Weigel, B.°**, Strona, G., Hällfors, M., Kaarlejärvi, E., Dallas, T., Opedal, Ø., Heliölä, J., Henttonen, H., Huitu, O., Korpimäki, E., Kuussaari, M., Lehikoinen, A., Leinonen, R., Lindén, A., Merilä, P., Pietiäinen, H., Pöyry, J., Salemaa, M., Tonteri, T., Vuorio, K., Ovaskainen, O., Saastamoinen, M., Vanhatalo, J., Roslin, T., Laine, A-L. Climate change reshuffles northern species within their niches. Nature Climate Change (2022).
 
