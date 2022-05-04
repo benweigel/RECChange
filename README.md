@@ -36,7 +36,7 @@ For mammals, small rodents, and understory plant datasets the accuracy of the co
 The files also contain the climatic variables extracted for each site and year (annual mean temperature, annual summed precipitation, annual snow cover duration days, and NAO).
 
 
-**R Analysis Files**
+**R Analysis Files**    
 The scripts exemplify how to fit the models for each taxon in each zone and decade (01), score species position within niche domains (02), extract the relevant parameter estimates from the JSDMs (03), and calculate the species composition (beta-diversity) metrics (04).
 
 Please note that some of the code in this repository was written to run on a HPC cluster and that fitting the JSDMs can take multiple weeks for the largest subsets.
