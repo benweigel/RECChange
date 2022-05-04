@@ -14,16 +14,21 @@ Authors: The code was developed through collaboration between Benjamin Weigel, L
 
 Contacts:
 Benjamin Weigel - benjamin.weigel@helsinki.fi
+
 Laura Antao - laura.antao@helsinki.fi
 
 
 Data Files
+
 Species data
 [[copy the links etc from main text]]
 
+
 Climatic data
+
 We extracted values of daily mean temperature, daily precipitation sum, and daily snow depth from the Finnish
 Meteorological Institute(https://etsin.fairdata.fi/datasets/fmi?keys=Finnish%20Meteorological%20Insitute&terms=organization_name_en.keyword&p=1&sort=best; first accessed in April 2019 and updated in May 2020)
+
 NAO valueswere derived from: NAO Index Data provided by the Climate Analysis Section, NCAR, Boulder, USA, Hurrell (2003). Updated regularly. Accessed DD Month YYYY [16 12 2019]. https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based
 
 
