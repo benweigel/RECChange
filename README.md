@@ -43,4 +43,4 @@ Please note that some of the code in this repository was written to run on a HPC
 
 **Requirements**    
 Program R version used 3.6.3 (2020-02-29)   
-Other attached packages: Hmsc_3.0-12, coda_0.19-4 
+Other attached packages: betapart_1.5.4, forcats_0.5.0, stringr_1.4.0, dplyr_1.0.7, purrr_0.3.4, readr_1.4.0, tidyr_1.1.4, tibble_3.1.6, ggplot2_3.3.5, tidyverse_1.3.0, Hmsc_3.0-12, coda_0.19-4  
