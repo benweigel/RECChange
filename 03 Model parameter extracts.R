@@ -33,7 +33,7 @@ poly_birds_90<-list()
 u=1
 
 for (dec_n in c("1","2","3","4")){
-  for (reg in c("HB_SB","MB","NB")){
+  for (reg in c("SB","MB","NB")){
     for (tname in c("bird")){
       
       
