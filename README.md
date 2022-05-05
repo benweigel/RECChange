@@ -27,8 +27,13 @@ The data included here are the processed data used in the analysis, that is occu
 For mammals, small rodents, and understory plant datasets, the accuracy of the coordinates for the sampling sites was coarsened to comply with data owners’ requirements. The files contain a “Sample ID” variable that identifies each sample, i.e. species occurrence for each site in each year.
 The files also contain the climatic variables extracted for each site and year (annual mean temperature, annual summed precipitation, annual snow cover duration days, and NAO).
 
+		
+The **"Data"** folder contains folders for each taxonomic group. Each taxon folder includes .csv files with all data to fit each model, i.e. bioclimatic zone x decade combination. Csv files are labelled as “taxon_decade_zone.csv”. 
+		
+		
+
 ### *Species data*    
-**Bird** monitoring data is curated by the Finnish Museum of Natural History.   
+**Bird** monitoring data is curated by the Finnish Museum of Natural History.  
 		
 **Butterfly** monitoring data is curated by the Finnish Environment Institute (SYKE)
 		
@@ -43,7 +48,7 @@ We extracted values of daily mean temperature, daily precipitation sum, and dail
 Meteorological Institute(https://etsin.fairdata.fi/datasets/fmi?keys=Finnish%20Meteorological%20Insitute&terms=organization_name_en.keyword&p=1&sort=best; first accessed in April 2019 and updated in May 2020). NAO values were derived from: NAO Index Data provided by the Climate Analysis Section, NCAR, Boulder, USA, Hurrell (2003). Updated regularly. Accessed 16.12.2019. https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based
   
 
-The **"Data"** folder contains folders for each taxonomic group. Each taxon folder includes .csv files with all data to fit each model, i.e. bioclimatic zone x decade combination. Csv files are labelled as “taxon_decade_zone.csv”. 
+
 
 
 ## **R Analysis Files**    
