@@ -1,6 +1,7 @@
 # Used loop to extract model parameters for post-processing of each taxonomic group, here exemplified for birds 
 
-# the loop structure assumes model results stored as "results.Rdata" file with "res" output from script 01. The directory needs to include seperate folders including "results.R" named:
+# the loop structure below assumes that the model results were stored as "results.Rdata" file from script 01. To iterate through all the files for the bird models, the directory needs to have separate folders for each model RData file, named as:
+
 #bird_1_SB
 #bird_1_MB
 #bird_1_NB
