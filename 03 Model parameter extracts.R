@@ -1,4 +1,18 @@
-# Extract model parameters for post-processing for each taxonomic group, here exemplified for birds ---------------------------------
+# Used loop to extract model parameters for post-processing of each taxonomic group, here exemplified on birds 
+---------------------------------
+# the loop structure assumes model results stored as "results.R" file with "res" output from script 01. The directory needs to include seperate folders including "results.R" named:
+#bird_1_SB
+#bird_1_MB
+#bird_1_NB
+#bird_2_SB
+#bird_2_MB
+#bird_2_NB
+#bird_3_SB
+#bird_3_MB
+#bird_3_NB
+#bird_4_SB
+#bird_4_MB
+#bird_4_NB
 
 ##creating objects to save results of all model runs per taxonomic group
 
