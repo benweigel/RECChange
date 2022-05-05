@@ -17,7 +17,10 @@ Benjamin Weigel - benjamin.weigel@helsinki.fi
 Laura Antao - laura.antao@helsinki.fi
 
 
-**Data Files**
+**Data Files**    
+The data included here are the processed data used in the analysis, that is occurrence records after the data inclusion criteria described in the Methods.
+For mammals, small rodents, and understory plant datasets, the accuracy of the coordinates for the sampling sites was coarsened to comply with data owners’ requirements. The files contain a “Sample ID” variable that identifies each sample, i.e. species occurrence for each site in each year.
+The files also contain the climatic variables extracted for each site and year (annual mean temperature, annual summed precipitation, annual snow cover duration days, and NAO).
 
 *Species data*    
 **Bird**  ...   
@@ -29,11 +32,7 @@ For the data sets **mammals, small rodents,** and **understory plants** belongin
 *Climatic data*  
 We extracted values of daily mean temperature, daily precipitation sum, and daily snow depth from the Finnish
 Meteorological Institute(https://etsin.fairdata.fi/datasets/fmi?keys=Finnish%20Meteorological%20Insitute&terms=organization_name_en.keyword&p=1&sort=best; first accessed in April 2019 and updated in May 2020). NAO values were derived from: NAO Index Data provided by the Climate Analysis Section, NCAR, Boulder, USA, Hurrell (2003). Updated regularly. Accessed 16.12.2019. https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based
-
-
-The data included here are the processed data used in the analysis, that is occurrence records after the data inclusion criteria described in the Methods.
-For mammals, small rodents, and understory plant datasets, the accuracy of the coordinates for the sampling sites was coarsened to comply with data owners’ requirements. The files contain a “Sample ID” variable that identifies each sample, i.e. species occurrence for each site in each year.
-The files also contain the climatic variables extracted for each site and year (annual mean temperature, annual summed precipitation, annual snow cover duration days, and NAO).  
+  
 
 The **data folder** contains folders for each taxonomic group. Each taxon folder includes .csv files with all data to fit each model, i.e. bioclimatic zone x decade combination. Csv files are labled after taxon_decade_zone.csv. Script *01 HMSC_RECC.R* serves as illustrative example script to fit the model for birds in the south boreal zone in decade 1, using *birds_decade_1_SB.csv* as data input. When wanting to iterate through several/all input files, one needs to adapt the code and make sure to rename the model file/output accordingly.
 
