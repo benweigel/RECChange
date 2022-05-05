@@ -1,6 +1,6 @@
 # Used loop to extract model parameters for post-processing of each taxonomic group, here exemplified for birds 
 
-# the loop structure assumes model results stored as "results.R" file with "res" output from script 01. The directory needs to include seperate folders including "results.R" named:
+# the loop structure assumes model results stored as "results.Rdata" file with "res" output from script 01. The directory needs to include seperate folders including "results.R" named:
 #bird_1_SB
 #bird_1_MB
 #bird_1_NB
@@ -23,7 +23,7 @@ Bird_VP <- matrix(NA, 12, 7)
 spsVP_birds<- list() 
 auxlist<- list()
 
-# to save include species level bete paramters from HMSC object
+# to save include species level beta paramters from HMSC object
 spsBeta_birds<- list()
 
 # to save model convergence diagnostics
