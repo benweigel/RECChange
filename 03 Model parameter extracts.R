@@ -17,6 +17,9 @@
 
 ##creating objects to save results of all model runs per taxonomic group
 
+library(Hmsc)
+library(tidyverse)
+
 # to save variance partitioning (VP) values
 Bird_VP <- matrix(NA, 12, 7) 
 
